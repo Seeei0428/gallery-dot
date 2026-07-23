@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<!-- SEO -->
+<title>GALLERY DOT 10周年記念展 "AFTER IMAGE" ｜ 現代美術ギャラリー 渋谷・原宿 2026年1月開催 来場予約受付中</title>
+<meta name="description" content="GALLERY DOT 10周年記念展「AFTER IMAGE — 10年の残像」。2026年1月10日〜26日、渋谷・神宮前にて開催。折原柚衣、NORI、佐伯凛、Hanna K.、境直斗ら5名のアーティストが参加。事前予約で記念マグカップをプレゼント。入場無料。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gallery-dot.jp/afterimage/">
+
+<!-- OGP -->
+<meta property="og:title" content="AFTER IMAGE — GALLERY DOT 10周年記念展">
+<meta property="og:description" content="10年の残像。新作・未公開作を中心に記憶と物質が交わる瞬間を展示。2026/1/10–1/26 渋谷・神宮前。事前予約で記念マグカッププレゼント。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gallery-dot.jp/afterimage/">
+<meta property="og:image" content="https://gallery-dot.jp/afterimage/images/Orihara.png">
+<meta property="og:site_name" content="GALLERY DOT">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="images/android-chrome-512x512.png">
+
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400;500&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SCROLL PROGRESS BAR -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ② BOTTOM FLOATING CTA (replaces sticky header) -->
+<div class="float-cta" id="floatCta">
+  <a href="#reservation" class="float-cta-btn">来場予約する</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg-img"><img src="images/Orihara.png" alt="AFTER IMAGE 展示作品：折原柚衣《Afterglow #07》ラムダプリント＋UVレジン" width="860" height="573"></div>
+  <div class="hero-bg-overlay"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-content">
+    <div class="hero-badge">1/10 – 1/26 ｜ 12:00–19:00 ｜ 火休 ｜ 入場無料</div>
+    <h1 class="hero-title"><em class="hero-title-main"><span>A</span><span>f</span><span>t</span><span>e</span><span>r</span><span> </span><span>I</span><span>m</span><span>a</span><span>g</span><span>e</span></em><br><span class="hero-title-sub">— 10年の残像。</span></h1>
+    <p class="hero-subtitle">GALLERY DOT 10th Anniversary</p>
+    <p class="hero-copy">ここでしか見られない新作・未公開作を一堂に展示。事前予約で来場された方に、10周年記念マグカップをプレゼント。おひとり様1点、数量限定。</p>
+    <p class="hero-microcopy">＼ 先着・数量限定 ／</p>
+    <div class="hero-ctas">
+      <a href="#reservation" class="cta-primary cta-primary--hero">来場予約する</a>
+      <a href="#" class="cta-secondary line-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.271.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+        LINEで最新情報を受け取る
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY PHOTO -->
+<img src="images/Gallery_Dot.png" alt="GALLERY DOT 渋谷・神宮前 ギャラリー内観・外観" class="gallery-photo" width="860" height="430">
+
+
+<!-- CONCEPT -->
+<section class="concept section-pad-lg">
+  <div class="reveal">
+    <span class="label">Concept</span>
+    <p class="concept-text">光が去ったあとに浮かぶ像のように、<span>創作の時差</span>を見つめる展覧会。10年で出会った作家たちの新作・未公開作を中心に、記憶と物質が交わる瞬間を展示します。</p>
+  </div>
+</section>
+
+<!-- ARTISTS -->
+<section class="artists section-pad-lg" id="artists">
+  <div class="reveal"><span class="label">Exhibiting Artists</span><h2 class="artists-heading">参加アーティスト</h2></div>
+
+  <div class="artist-card reveal">
+    <img src="images/Orihara.png" alt="AFTER IMAGE 展示作品：折原柚衣 光学プリント／残像表現" class="artist-img" loading="lazy">
+    <span class="artist-num">01</span><h3 class="artist-name">折原 柚衣</h3><span class="artist-name-en">Yui Orihara</span>
+    <span class="artist-medium">光学プリント／残像表現</span>
+    <p class="artist-desc">微光下での長秒露光により、視覚の遅延を写真上に定着させる。光そのものの「残り方」を問い直す作品群。</p>
+    <p class="artist-work">《Afterglow #07》2025, ラムダプリント＋UVレジン, 100×140cm</p>
+    <p class="artist-credit">© Yui Orihara / Courtesy of GALLERY DOT</p>
+  </div>
+
+  <div class="artist-card reveal">
+    <img src="images/NORI.png" alt="AFTER IMAGE 展示作品：NORI キネティック彫刻《Echo Pendulum》" class="artist-img" loading="lazy">
+    <span class="artist-num">02</span><h3 class="artist-name">NORI</h3><span class="artist-name-en">Nao Nozato</span>
+    <span class="artist-medium">キネティック彫刻</span>
+    <p class="artist-desc">周期的に揺れるアームが残像の軌跡をレーザーで空間に描画。動きそのものが彫刻となる体験型作品。</p>
+    <p class="artist-work">《Echo Pendulum》2025, ステンレス・磁石・モーター, W120×D80×H210cm</p>
+    <p class="artist-credit">© NORI / Courtesy of GALLERY DOT</p>
+  </div>
+
+  <div class="artist-card reveal">
+    <img src="images/saeki.png" alt="AFTER IMAGE 展示作品：佐伯凛 デジタル織物《weave_ghost 3》" class="artist-img" loading="lazy">
+    <span class="artist-num">03</span><h3 class="artist-name">佐伯 凛</h3><span class="artist-name-en">Rin Saeki</span>
+    <span class="artist-medium">デジタル織物（テキスタイル×生成アルゴリズム）</span>
+    <p class="artist-desc">アルゴリズムが生成した残像パターンを実布に織り戻す。デジタルとクラフトの境界を溶かすプロジェクト。</p>
+    <p class="artist-work">《weave_ghost 3》2025, ジャカード織（シルク/和紙）, 180×90cm</p>
+    <p class="artist-credit">© Rin Saeki / Courtesy of GALLERY DOT</p>
+  </div>
+
+  <!-- Mid CTA after artist 03 -->
+  <div class="artist-mid-cta reveal">
+    <p>気になる作品はありましたか？</p>
+    <a href="#reservation" class="cta-primary">来場予約する</a>
+  </div>
+
+  <div class="artist-card reveal">
+    <img src="images/Hanna.png" alt="AFTER IMAGE 展示作品：Hanna K. 版画・モノタイプ《Residual Bodies》" class="artist-img artist-img--hanna" loading="lazy">
+    <span class="artist-num">04</span><h3 class="artist-name">Hanna K.</h3><span class="artist-name-en">Berlin-based</span>
+    <span class="artist-medium">版画／モノタイプ</span>
+    <p class="artist-desc">身体の動きを一版に重ね刷りして生まれる多重像。身体が残す痕跡の記録としての版画。</p>
+    <p class="artist-work">《Residual Bodies》2023, モノタイプ＋グラファイト, 70×100cm</p>
+    <p class="artist-credit">© Hanna K. / Courtesy of GALLERY DOT</p>
+  </div>
+
+  <div class="artist-card reveal">
+    <img src="images/Sakai_Naoto.png" alt="AFTER IMAGE 展示作品：境直斗 サウンド・インスタレーション《After Silence》" class="artist-img" loading="lazy">
+    <span class="artist-num">05</span><h3 class="artist-name">境 直斗</h3><span class="artist-name-en">Naoto Sakai</span>
+    <span class="artist-medium">サウンド・インスタレーション</span>
+    <p class="artist-desc">Room Bにて展開。定在波スピーカーとテープループによる音の残像空間。入場10名・15分入替制。</p>
+    <p class="artist-work">《After Silence》2025, 定在波スピーカー・テープループ, 可変</p>
+    <p class="artist-credit">© Naoto Sakai / Courtesy of GALLERY DOT</p>
+  </div>
+</section>
+
+<!-- BENEFIT -->
+<section class="benefit section-pad-lg" id="benefit">
+  <div class="reveal">
+    <span class="label">Visitor Benefit</span>
+    <h2 class="benefit-heading">10周年記念<br class="sp-br">マグカップ</h2>
+    <p class="benefit-desc">事前予約＋当日チェックインで、記念マグカップを1点プレゼント。おひとり様1点限り、なくなり次第終了。</p>
+  </div>
+  <div class="reveal"><img src="images/Cup.png" alt="GALLERY DOT 10周年記念マグカップ 来場特典 白黒2色" class="benefit-mug-img" loading="lazy"></div>
+  <div class="benefit-conditions reveal">
+    <div class="benefit-cond-item"><div class="benefit-cond-num">1</div><p class="benefit-cond-text">LPから来場日時を事前予約</p></div>
+    <div class="benefit-cond-item"><div class="benefit-cond-num">2</div><p class="benefit-cond-text">当日、入口でQRコードをスキャン（チェックイン）</p></div>
+    <div class="benefit-cond-item"><div class="benefit-cond-num">3</div><p class="benefit-cond-text">物販横にてマグカップを受け取り（色はお選びいただけない場合があります）</p></div>
+  </div>
+  <div class="section-cta reveal"><a href="#reservation" class="cta-primary">来場予約する</a></div>
+</section>
+
+<!-- SCHEDULE -->
+<section class="schedule section-pad-lg" id="schedule">
+  <div class="reveal"><span class="label">Events</span><h2 class="schedule-heading">トーク &<br class="sp-br">パフォーマンス</h2></div>
+  <div class="event-card reveal"><span class="event-type">Talk Event</span><h3 class="event-title">AFTER IMAGE と、10年のキュレーション</h3><p class="event-meta"><strong>1/11（日）17:00–18:15</strong><br class="sp-br"><span class="meta-sep"> ｜ </span>佐伯奈央 / 水野圭太 / 久保田ミオ<br class="sp-br"><span class="meta-sep"> ｜ </span>定員40名・着席優先</p><span class="event-tag">要事前予約</span></div>
+  <div class="event-card reveal"><span class="event-type">Talk Event</span><h3 class="event-title">記憶・物質・イメージの残り方</h3><p class="event-meta"><strong>1/17（土）18:00–19:00</strong><br class="sp-br"><span class="meta-sep"> ｜ </span>森本紗英 / 高橋凌 / 司会：佐伯奈央<br class="sp-br"><span class="meta-sep"> ｜ </span>定員35名・予約者優先</p><span class="event-tag">要事前予約</span></div>
+  <div class="event-card reveal"><span class="event-type">Talk Event</span><h3 class="event-title">若手作家が語る "AFTER IMAGE"</h3><p class="event-meta"><strong>1/24（土）16:00–17:00</strong><br class="sp-br"><span class="meta-sep"> ｜ </span>山城遥 / 小林新 / Chen Rui<br class="sp-br"><span class="meta-sep"> ｜ </span>定員50名・Q&amp;Aあり</p><span class="event-tag">予約推奨</span></div>
+  <div class="event-card reveal"><span class="event-type">Live Performance</span><h3 class="event-title">AFTER IMAGE / Light Trace</h3><p class="event-meta"><strong>1/18（日）18:30–19:10</strong><br class="sp-br"><span class="meta-sep"> ｜ </span>NOA ISHIKAWA / KEN OTOMO<br class="sp-br"><span class="meta-sep"> ｜ </span>定員30名・時間帯別入場制</p><span class="event-tag">要事前予約</span></div>
+  <div class="event-card reveal"><span class="event-type">Live Performance</span><h3 class="event-title">Archive Body</h3><p class="event-meta"><strong>1/25（日）17:30–18:00</strong><br class="sp-br"><span class="meta-sep"> ｜ </span>牧村澪 / 映像：井上湊</p><span class="event-tag">当日観覧可</span></div>
+  <div class="section-cta reveal"><a href="#reservation" class="cta-primary">来場予約する</a></div>
+</section>
+
+<!-- TIMELINE -->
+<section class="timeline section-pad-lg" id="history">
+  <div class="reveal"><span class="label">History</span><h2 class="timeline-heading">ギャラリーの歩み</h2></div>
+  <div class="tl-item reveal"><span class="tl-year">2016</span><p class="tl-content"><strong>GALLERY DOT 開廊。</strong>「Dot Studies #01」シリーズ開始</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2017</span><p class="tl-content">若手作家支援プログラム開始（年間3名）</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2018</span><p class="tl-content"><strong>「New Vision Tokyo」企画</strong> — Tokyo Art Directors Award 入選</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2019</span><p class="tl-content">海外フェア初出展（Art Busan / Discoveries）</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2020</span><p class="tl-content">オンライン・ビューイング開設（年間来場 2.8万UU）</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2021</span><p class="tl-content"><strong>「Shadow Index」</strong>（都美術館 連携企画）優秀企画賞</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2022</span><p class="tl-content">アーティスト・イン・レジデンス（新潟）開始</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2023</span><p class="tl-content">「Edge After Edge」図録が写真協会ブックアワード ショートリスト</p></div>
+  <div class="tl-item reveal"><span class="tl-year">2024</span><p class="tl-content tl-highlight"><strong>企業コレクション向けキュレーション5件</strong><br><a href="mailto:info@gallery-dot.jp">企業・法人のお問い合わせ → info@gallery-dot.jp</a></p></div>
+  <div class="tl-item reveal"><span class="tl-year">2025</span><p class="tl-content"><strong>10周年記念展 "AFTER IMAGE" 開催</strong></p></div>
+</section>
+
+<!-- ACCESS -->
+<section class="access section-pad-lg" id="access">
+  <div class="reveal"><span class="label">Access</span><h2 class="access-heading">来場方法</h2></div>
+  <img src="images/Gallery_Dot.png" alt="GALLERY DOT" class="access-gallery-img reveal" width="860" height="430" loading="lazy">
+  <div class="access-info reveal">
+    <strong>GALLERY DOT</strong>
+    <p>〒150-0001 東京都渋谷区神宮前 1-2-3 DOT BLDG 1F</p>
+    <strong>最寄り駅</strong>
+    <p>JR 原宿駅 徒歩5分 ／ 東京メトロ 明治神宮前〈原宿〉駅 徒歩3分</p>
+  </div>
+  <div class="access-barrier reveal"><span class="access-barrier-label">バリアフリー</span><p class="access-barrier-text">1Fフラットアクセス。車椅子でのご来場が可能です。ベビーカー・大きなお荷物は受付にてお預かり（数量限定）。</p></div>
+</section>
+
+<!-- RESERVATION FORM -->
+<section class="reservation section-pad-lg" id="reservation">
+  <div class="reveal">
+    <span class="label">Reservation</span>
+    <h2 class="reservation-heading">来場予約</h2>
+    <p class="reservation-sub">予約完了後、QRコードをメールでお送りします。当日は入口でQRをご提示ください。</p>
+    <div class="trust-badges">
+      <span>所要30秒</span>
+      <span>前日18時まで変更可</span>
+      <span>SSL暗号化通信</span>
+    </div>
+  </div>
+  <form id="reservationForm" novalidate>
+    <div class="form-group reveal">
+      <label class="form-label">お名前 <span class="required">*</span></label>
+      <input type="text" class="form-input" data-field="name" placeholder="山田 太郎">
+      <p class="form-error"></p>
+    </div>
+    <div class="form-group reveal">
+      <label class="form-label">メールアドレス <span class="required">*</span></label>
+      <input type="email" class="form-input" data-field="email" placeholder="you@example.com">
+      <p class="form-error"></p>
+    </div>
+    <div class="form-row reveal">
+      <div class="form-group">
+        <label class="form-label">来場日 <span class="required">*</span></label>
+        <select class="form-input" data-field="date">
+          <option value="" disabled selected>日付を選択</option>
+          <option>1/10（土）</option><option>1/11（日）</option><option>1/12（月）</option>
+          <option>1/14（水）</option><option>1/15（木）</option><option>1/16（金）</option>
+          <option>1/17（土）</option><option>1/18（日）</option><option>1/19（月）</option>
+          <option>1/21（水）</option><option>1/22（木）</option><option>1/23（金）</option>
+          <option>1/24（土）</option><option>1/25（日）</option><option>1/26（月）</option>
+        </select>
+        <p class="form-error"></p>
+      </div>
+      <div class="form-group">
+        <label class="form-label">時間帯 <span class="required">*</span></label>
+        <select class="form-input" data-field="time">
+          <option value="" disabled selected>時間を選択</option>
+          <option>12:00–12:30</option><option>12:30–13:00</option><option>13:00–13:30</option>
+          <option>13:30–14:00</option><option>14:00–14:30</option><option>14:30–15:00</option>
+          <option>15:00–15:30</option><option>15:30–16:00</option><option>16:00–16:30</option>
+          <option>16:30–17:00</option><option>17:00–17:30</option><option>17:30–18:00</option>
+          <option>18:00–18:30</option><option>18:30–19:00</option>
+        </select>
+        <p class="form-error"></p>
+      </div>
+    </div>
+    <div class="form-group reveal">
+      <label class="form-label">同伴人数</label>
+      <select class="form-input"><option value="0">0名（本人のみ）</option><option value="1">1名</option><option value="2">2名</option></select>
+    </div>
+    <div class="form-group reveal">
+      <label class="form-checkbox">
+        <input type="checkbox" data-field="agree">
+        <span class="form-checkbox-label"><a href="#" data-modal="termsModal">利用規約</a>・<a href="#" data-modal="privacyModal">個人情報の取扱い</a>に同意する <span class="required">*</span></span>
+      </label>
+      <p class="form-error"></p>
+    </div>
+    <div class="form-submit reveal">
+      <button type="submit" class="cta-primary">予約を確定する</button>
+    </div>
+  </form>
+  <div class="form-thanks" id="formThanks">
+    <p class="form-thanks-title">ご予約ありがとうございます</p>
+    <p class="form-thanks-text">確認メールをお送りしました。<br>当日はメール内のQRコードをご提示ください。</p>
+    <a href="#hero" class="cta-primary">トップに戻る</a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section-pad-lg" id="faq">
+  <div class="reveal"><span class="label">FAQ</span><h2 class="faq-heading">よくあるご質問</h2></div>
+  <div class="faq-item reveal"><button class="faq-q">予約の時間変更は可能ですか？</button><div class="faq-a"><p class="faq-a-inner">前日18:00まで、確認メール内の「予約変更」リンクから変更いただけます。</p></div></div>
+  <div class="faq-item reveal"><button class="faq-q">再入場はできますか？</button><div class="faq-a"><p class="faq-a-inner">当日中であれば、受付でスタンプをご提示いただくことで再入場が可能です。</p></div></div>
+  <div class="faq-item reveal"><button class="faq-q">撮影はできますか？</button><div class="faq-a"><p class="faq-a-inner">静止画撮影は可能です（フラッシュ不可・動画不可）。一部作品は全撮影不可の掲示がありますのでご注意ください。</p></div></div>
+  <div class="faq-item reveal"><button class="faq-q">子ども連れで行けますか？</button><div class="faq-a"><p class="faq-a-inner">はい、お子さま連れでのご来場は歓迎です。未就学児は手をつなぐなど安全へのご配慮をお願いいたします。</p></div></div>
+  <div class="faq-item reveal"><button class="faq-q">同伴者も特典はもらえますか？</button><div class="faq-a"><p class="faq-a-inner">いいえ。特典は予約者ご本人のみ1点です。同伴者（最大2名）は入場可能ですが、特典の対象外となります。</p></div></div>
+  <div class="faq-item reveal"><button class="faq-q">予約なしでも入れますか？</button><div class="faq-a"><p class="faq-a-inner">混雑時は予約優先・入場制限を行う場合があります。特典（マグカップ）は事前予約＋当日チェックインの方のみが対象です。</p></div></div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta" id="line">
+  <div class="reveal">
+    <h2 class="final-cta-title"><em>After Image</em></h2>
+    <p class="final-cta-sub">残像のように、あなたの記憶に残る体験を。</p>
+    <div class="final-cta-buttons">
+      <a href="#reservation" class="cta-primary">来場予約する</a>
+      <a href="#" class="cta-secondary line-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.271.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+        LINEで最新情報を受け取る
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <img src="images/gallery_dot_logo.svg" alt="GALLERY DOT" class="footer-logo">
+  <div class="footer-social">
+    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+    <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+    <a href="#" aria-label="LINE"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.271.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg></a>
+  </div>
+  <div class="footer-contact">info@gallery-dot.jp<br><a href="tel:03-0000-0000">03-0000-0000</a><br>東京都渋谷区神宮前 1-2-3 DOT BLDG 1F</div>
+  <p class="footer-copy">© 2026 GALLERY DOT. All rights reserved.</p>
+</footer>
+
+<!-- ⑤ MODALS -->
+<div class="modal-overlay" id="termsModal">
+  <div class="modal-content">
+    <div class="modal-header"><span class="modal-title">利用規約</span><button class="modal-close">×</button></div>
+    <div class="modal-body">
+      主催：GALLERY DOT（東京都渋谷区神宮前1-2-3）<br><br>
+      会期：2026/01/10–01/26（火休）/ 12:00–19:00<br><br>
+      特典：事前予約＋当日チェックインで記念マグ1点。色はお選びいただけない場合あり。日別在庫制／なくなり次第終了。転売禁止。<br><br>
+      予約変更/キャンセル：前日18:00まで可。無断キャンセルが一定回数を超える場合は以後の予約をお断りする場合があります。<br><br>
+      撮影：静止画のみ・フラッシュ不可・動画不可。撮影不可表示の作品は全撮影禁止。<br><br>
+      安全：混雑時は入場制限。ベビーカー・大きな荷物は受付にて預かり（数量限定）。<br><br>
+      免責：天候・災害・作品保護上の理由で展示内容・運営が変更/中止になる場合があります。<br><br>
+      準拠法／管轄：日本法／東京地方裁判所。
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="privacyModal">
+  <div class="modal-content">
+    <div class="modal-header"><span class="modal-title">個人情報の取扱い</span><button class="modal-close">×</button></div>
+    <div class="modal-body">
+      取得項目：氏名、メール、電話、来場日時、同伴人数、予約ID、チェックイン履歴<br><br>
+      利用目的：予約管理、当日運営、問い合わせ対応、統計分析、次回企画案内（同意時のみ）<br><br>
+      第三者提供：チケット/予約管理・配信事業者に業務委託の範囲で提供<br><br>
+      保存期間：会期終了後90日で削除（法令に基づく保存要件を除く）<br><br>
+      開示・訂正・削除：privacy@gallery-dot.jp<br><br>
+      Cookie等：分析・機能向上のためCookieを利用。ブラウザ設定で拒否可能。
+    </div>
+  </div>
+</div>
+
+<!-- JS -->
+<script src="main.js"></script>
+</body>
+</html>
